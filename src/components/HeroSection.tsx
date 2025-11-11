@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Calculator, MessageCircle, TrendingUp } from "lucide-react";
+import { Home, Search, Users } from "lucide-react";
 import heroBackground from "@/assets/hero-background.jpg";
 
 export const HeroSection = () => {
@@ -14,51 +14,66 @@ export const HeroSection = () => {
       
       <div className="relative z-10 max-w-7xl mx-auto text-center">
         {/* Main heading */}
-        <div className="space-y-6">
+        <div className="space-y-8">
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight">
-            Sell Your Home{" "}
+            Coming Soon Showcase:{" "}
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Agent-Free
+              Where Property Owners Connect
             </span>
           </h1>
           
           <p className="text-xl sm:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Bypass high agent fees with our AI-powered platform. Get instant cash offers, 
-            personalized marketing tools, and keep more money in your pocket.
+            Past Owners. Present Owners. Future Owners. One hyperlocal community. Real intelligence. 
+            Coming Soon properties showcased before they hit the market.
           </p>
 
-          {/* CTA Buttons */}
+          {/* Three Owner Type Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
             <Button 
               size="lg" 
-              className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-4 text-lg shadow-lg hover:shadow-xl transition-all group"
+              className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 text-lg shadow-lg hover:shadow-xl transition-all group w-full sm:w-auto"
             >
-              Get 4 Cash Offers Now
-              <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
+              <Search className="mr-2 h-5 w-5" />
+              I'm Looking to Buy
+              <span className="ml-2 text-xs opacity-80">Future Owner</span>
             </Button>
             
             <Button 
-              variant="outline" 
               size="lg" 
-              className="border-accent text-accent hover:bg-accent hover:text-accent-foreground px-8 py-4 text-lg"
+              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 text-lg shadow-lg hover:shadow-xl transition-all group w-full sm:w-auto"
             >
-              Calculate My Net Proceeds
+              <Home className="mr-2 h-5 w-5" />
+              I'm Thinking of Selling
+              <span className="ml-2 text-xs opacity-80">Present Owner</span>
+            </Button>
+
+            <Button 
+              size="lg" 
+              className="bg-slate-600 hover:bg-slate-700 text-white px-8 py-4 text-lg shadow-lg hover:shadow-xl transition-all group w-full sm:w-auto"
+            >
+              <Users className="mr-2 h-5 w-5" />
+              I'm a Past Owner
+              <span className="ml-2 text-xs opacity-80">Community Member</span>
             </Button>
           </div>
 
-          {/* Quick action icons */}
-          <div className="flex flex-wrap justify-center gap-8 pt-12">
-            <div className="flex items-center space-x-2 text-muted-foreground">
-              <Calculator className="h-5 w-5 text-primary" />
-              <span>Instant Valuation</span>
+          {/* Quick Stats */}
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 pt-12 max-w-5xl mx-auto">
+            <div className="text-center">
+              <div className="text-3xl sm:text-4xl font-bold text-primary mb-2">247</div>
+              <div className="text-sm text-muted-foreground">Coming Soon Properties Showcased</div>
             </div>
-            <div className="flex items-center space-x-2 text-muted-foreground">
-              <MessageCircle className="h-5 w-5 text-accent" />
-              <span>AI Assistant</span>
+            <div className="text-center">
+              <div className="text-3xl sm:text-4xl font-bold text-accent mb-2">1,834</div>
+              <div className="text-sm text-muted-foreground">Property Owners in Community</div>
             </div>
-            <div className="flex items-center space-x-2 text-muted-foreground">
-              <TrendingUp className="h-5 w-5 text-success" />
-              <span>Market Analysis</span>
+            <div className="text-center">
+              <div className="text-3xl sm:text-4xl font-bold text-emerald-600 mb-2">63</div>
+              <div className="text-sm text-muted-foreground">Hyperlocal Markets Covered</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl sm:text-4xl font-bold text-blue-600 mb-2">4,921</div>
+              <div className="text-sm text-muted-foreground">Intelligence Reports Generated</div>
             </div>
           </div>
         </div>
