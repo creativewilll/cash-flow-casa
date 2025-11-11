@@ -10,14 +10,14 @@ export const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
               <Home className="h-8 w-8 text-primary" />
-              <span className="text-2xl font-bold">RealtyAI</span>
+              <span className="text-2xl font-bold">ComingSoonMLS.com</span>
             </div>
             <p className="text-background/80 text-lg leading-relaxed mb-6 max-w-md">
-              Revolutionizing real estate with AI-powered tools that put sellers first. 
-              Bypass agent fees and maximize your proceeds.
+              All the inventory. None of the egos. Nationwide MLS access with hyperlocal intelligence. 
+              Property owners helping property owners connect and make informed decisions.
             </p>
             <Button className="bg-primary hover:bg-primary/90 text-primary-foreground group">
-              Start Selling Agent-Free
+              Join the Community
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Button>
           </div>
@@ -55,7 +55,7 @@ export const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center space-x-2 text-background/80">
                 <Mail className="h-4 w-4" />
-                <span>hello@realtyai.com</span>
+                <span>hello@comingsoonmls.com</span>
               </li>
               <li className="flex items-center space-x-2 text-background/80">
                 <Phone className="h-4 w-4" />
@@ -73,7 +73,7 @@ export const Footer = () => {
         <div className="border-t border-background/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-background/60 text-sm">
-              © 2024 RealtyAI. All rights reserved. Built to disrupt traditional real estate.
+              © 2025 ComingSoonMLS.com | Powered by AORPO. Community-driven. Intelligence-first.
             </p>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-background/60 hover:text-primary transition-colors">

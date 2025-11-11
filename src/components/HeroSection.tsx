@@ -16,15 +16,15 @@ export const HeroSection = () => {
         {/* Main heading */}
         <div className="space-y-8">
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight">
-            Coming Soon Showcase:{" "}
+            ComingSoonMLS:{" "}
             <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Where Property Owners Connect
+              All the Inventory. None of the Egos.
             </span>
           </h1>
           
           <p className="text-xl sm:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Past Owners. Present Owners. Future Owners. One hyperlocal community. Real intelligence. 
-            Coming Soon properties showcased before they hit the market.
+            Nationwide MLS access meets hyperlocal intelligence. Property owners helping property owners. 
+            Community-driven. Social-powered. Coming Soon listings before they go public.
           </p>
 
           {/* Three Owner Type Buttons */}

@@ -5,31 +5,31 @@ import { DollarSign, Plus, Zap, Truck } from "lucide-react";
 
 const offerOptions = [
   {
-    title: "Cash Offer",
-    description: "powered by RealtyAI",
+    title: "Basic Listing",
+    description: "Free",
     icon: DollarSign,
-    features: ["Instant valuation", "No repairs needed", "Close in 7 days"],
+    features: ["Address & basic specs", "Property photos", "Direct buyer contact"],
     isRecommended: false
   },
   {
-    title: "The Cash+",
-    description: "powered by RealtyAI",
+    title: "Enhanced Listing",
+    description: "$197",
     icon: Plus,
-    features: ["Higher offer amount", "Professional staging", "Market timing optimization"],
+    features: ["Virtual tour included", "Featured placement", "Buyer matching alerts", "Community verification"],
     isRecommended: true
   },
   {
-    title: "Cash+ with Upgrades",
-    description: "powered by RealtyAI",
+    title: "Premium Showcase",
+    description: "$497",
     icon: Zap,
-    features: ["Premium renovations", "AI-powered improvements", "Maximum value strategy"],
+    features: ["Professional staging photos", "Video walkthrough", "Highlight placement", "Social media promotion"],
     isRecommended: false
   },
   {
-    title: "Sell Now, Move Later",
-    description: "powered by RealtyAI",
+    title: "Intelligence Package",
+    description: "Add-On",
     icon: Truck,
-    features: ["Flexible timing", "Rent-back options", "Moving assistance"],
+    features: ["Market analysis", "Agent audit access", "Net proceeds calculator", "Community insights"],
     isRecommended: false
   }
 ];
@@ -40,10 +40,10 @@ export const CashOfferOptions = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
-            <span className="text-accent">Cash offer</span> options
+            <span className="text-accent">Coming Soon</span> Showcase Tiers
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Choose the perfect selling strategy that maximizes your proceeds and fits your timeline
+            List your Coming Soon property and connect with pre-registered buyers before going public
           </p>
         </div>
 

@@ -5,29 +5,29 @@ import { Zap, BarChart3, Mic, Calculator } from "lucide-react";
 const steps = [
   {
     number: "01",
-    title: "4 Cash Offers in Minutes",
-    description: "We deliver a baseline while you interview agents.",
+    title: "Register Your Search",
+    description: "Tell us what you're looking for—one time. We search all Coming Soon platforms for you.",
     icon: Zap,
     color: "text-primary"
   },
   {
     number: "02", 
-    title: "Compare Before You Commit",
-    description: "See who can beat the baseline with strategy and terms.",
+    title: "Get Matched with Owners",
+    description: "Connect directly with sellers before properties go public. Past owners provide neighborhood intel.",
     icon: BarChart3,
     color: "text-accent"
   },
   {
     number: "03",
-    title: "Voice-Powered RFP",
-    description: "Speak real estate; we secure multiple bids from agents & vendors.",
+    title: "Access Intelligence Tools",
+    description: "Use market analysis, agent audits, and community insights to make informed decisions.",
     icon: Mic,
     color: "text-success"
   },
   {
     number: "04",
-    title: "Exact Net Proceeds Reports",
-    description: "No surprises. Know costs before you sign.",
+    title: "Choose Your Path",
+    description: "Hire an agent, use an attorney, go DIY—we support whatever works for you.",
     icon: Calculator,
     color: "text-warning"
   }
@@ -39,10 +39,10 @@ export const HowItWorks = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 text-foreground">
-            How <span className="text-accent">RealtyAI</span> Works
+            How <span className="text-accent">ComingSoonMLS</span> Works
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Our streamlined process puts you in control while AI handles the heavy lifting
+            Intelligence first. Community connection. Then you decide your next step.
           </p>
         </div>
 
@@ -76,7 +76,7 @@ export const HowItWorks = () => {
             className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-4 text-lg shadow-lg hover:shadow-xl transition-all group"
           >
             <Mic className="mr-2 h-5 w-5" />
-            Press & Speak: Request RFP
+            Register as Buyer
           </Button>
           
           <Button 
@@ -85,7 +85,7 @@ export const HowItWorks = () => {
             className="border-primary text-primary hover:bg-primary hover:text-primary-foreground px-8 py-4 text-lg"
           >
             <Calculator className="mr-2 h-5 w-5" />
-            Calculate My Net Proceeds
+            List Coming Soon Property
           </Button>
         </div>
       </div>

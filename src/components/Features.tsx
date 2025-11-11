@@ -4,45 +4,45 @@ import { Smartphone, Shield, Brain, Zap, Globe, Lock } from "lucide-react";
 
 const features = [
   {
-    title: "Voice-First Experience",
-    description: "Talk to your AI agents through Siri, Alexa, Google Assistant, or direct voice commands. No apps to download or interfaces to learn.",
-    icon: Smartphone,
-    badge: "Siri Integration",
+    title: "Nationwide Coming Soon Access",
+    description: "Search all Coming Soon listings across multiple platforms in one place. No more checking 10 different sites—we aggregate it all for you.",
+    icon: Globe,
+    badge: "All Platforms",
     color: "text-accent"
   },
   {
-    title: "Always On Your Side", 
-    description: "Unlike traditional real estate platforms that serve everyone, RealtyAI's AI only works for YOU. We're your personal advocate, not a marketplace.",
-    icon: Shield,
-    badge: "User-Centric",
+    title: "Hyperlocal Intelligence", 
+    description: "Get neighborhood and block-level insights from actual property owners. Real truths about schools, noise, and development—not just MLS data.",
+    icon: Brain,
+    badge: "Community-Verified",
     color: "text-primary"
   },
   {
-    title: "Learns & Adapts",
-    description: "Each interaction makes your AI smarter. It remembers your preferences, past transactions, and adapts its recommendations to your style.",
-    icon: Brain, 
-    badge: "Machine Learning",
+    title: "Community Connection",
+    description: "Connect with Past, Present, and Future owners. Get mentorship, share insights, and verify information through real owner experiences.",
+    icon: Shield, 
+    badge: "Owner-to-Owner",
     color: "text-success"
   },
   {
-    title: "Lightning Fast Responses",
-    description: "Get instant answers to complex real estate questions. Our AI processes market data, contracts, and regulations in milliseconds.",
-    icon: Zap,
-    badge: "1.2s Response",
+    title: "Social Media Integrated",
+    description: "Share listings, connect with neighbors, and discover properties through your social networks. Built for how people really communicate.",
+    icon: Smartphone,
+    badge: "Social-First",
     color: "text-warning"
   },
   {
-    title: "Multi-Platform Access", 
-    description: "Access your AI agents from anywhere - voice assistants, web chat, SMS, or direct integration with your favorite apps.",
-    icon: Globe,
-    badge: "Universal",
+    title: "Intelligence Tools", 
+    description: "Access market analysis, agent audits, contract reviews, and net proceeds calculators. Make informed decisions with real data.",
+    icon: Zap,
+    badge: "Data-Driven",
     color: "text-accent"
   },
   {
-    title: "Privacy & Security First",
-    description: "Voice biometric authentication, encrypted conversations, and user-controlled data retention. Your information stays private.",
+    title: "No Egos, Just Owners",
+    description: "We don't push agendas or sell services. Just property owners helping each other make better decisions with better information.",
     icon: Lock,
-    badge: "Encrypted", 
+    badge: "Community First", 
     color: "text-primary"
   }
 ];
@@ -53,12 +53,12 @@ export const Features = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
-            Built for Real Estate,{" "}
-            <span className="text-accent">Powered by AI</span>
+            Built for Property Owners,{" "}
+            <span className="text-accent">Powered by Community</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            We're not just another chatbot. RealtyAI is purpose-built for real estate with
-            specialized AI that understands your market, your needs, and your goals.
+            We're not a marketplace pushing services. ComingSoonMLS is a community platform connecting property owners 
+            with intelligence, inventory, and each other. All the listings. Zero egos.
           </p>
         </div>
 

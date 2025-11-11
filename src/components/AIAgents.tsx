@@ -1,84 +1,84 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Search, FileText, Calculator, Users, TrendingUp, Calendar } from "lucide-react";
+import { Search, FileText, Calculator, Users, TrendingUp, Calendar, BarChart3 } from "lucide-react";
 
 const agents = [
   {
-    title: "Coming Soon Scout",
-    badge: "gemini-2.5-pro",
-    description: "Finds off-market and pre-listing properties before they hit the public market",
+    title: "Coming Soon Finder",
+    badge: "AI-Powered",
+    description: "Searches all Coming Soon platforms nationwide and alerts you to matches instantly",
     icon: Search,
     capabilities: [
-      "Natural language property search",
-      "Match buyer preferences to coming soon inventory", 
-      "Schedule private showings",
-      "Track interest and notify of competition"
+      "Aggregate multiple MLS sources",
+      "Match to your exact preferences", 
+      "Real-time alerts for new listings",
+      "Connect you directly with sellers"
     ],
     color: "text-accent"
   },
   {
-    title: "Contract Analyzer", 
-    badge: "gpt-4-pro",
-    description: "Reviews contracts and legal documents to protect you from hidden fees and bad terms",
-    icon: FileText,
+    title: "Hyperlocal Intel", 
+    badge: "Community-Driven",
+    description: "Neighborhood and block-level insights from actual property owners who lived there",
+    icon: TrendingUp,
     capabilities: [
-      "Extract key terms via OCR",
-      "Identify red flags and hidden fees",
-      "Compare to market standards", 
-      "Suggest negotiation points"
+      "Real school reviews from parents",
+      "Noise and traffic patterns",
+      "Upcoming development intel", 
+      "Community verification"
     ],
     color: "text-primary"
   },
   {
-    title: "Net Proceeds Calculator",
-    badge: "gemini-2.5-flash", 
-    description: "Calculates exactly how much money you'll walk away with after all fees and taxes",
-    icon: Calculator,
+    title: "Agent Audit Tool",
+    badge: "Intelligence", 
+    description: "Background check any agent before you sign—performance data, fees, red flags",
+    icon: Users,
     capabilities: [
-      "Real-time fee calculation",
+      "Past listing performance",
       "Commission comparison",
-      "Closing cost breakdown",
-      "Tax implications estimate"
+      "Reviews and violations",
+      "Marketing plan analysis"
     ],
     color: "text-success"
   },
   {
-    title: "Agent Matchmaker",
-    badge: "gemini-2.5-pro",
-    description: "Audits and ranks real estate agents to find the best fit for your needs",
-    icon: Users,
+    title: "Net Proceeds Calculator",
+    badge: "Financial",
+    description: "Know exactly what you'll walk away with after all costs, fees, and taxes",
+    icon: Calculator,
     capabilities: [
-      "Performance analysis",
-      "Commission comparison", 
-      "Specialization matching",
-      "Red flag detection"
+      "All-in cost breakdown",
+      "Commission scenarios", 
+      "Closing cost estimates",
+      "Tax implications"
     ],
     color: "text-warning"
   },
   {
-    title: "Market Intelligence",
-    badge: "gpt-4-pro",
-    description: "Provides real-time market analysis and timing recommendations",
-    icon: TrendingUp,
+    title: "Market Pulse",
+    badge: "Analytics",
+    description: "Real-time market intelligence for your specific neighborhood and block",
+    icon: BarChart3,
     capabilities: [
-      "Real-time valuations",
-      "Trend analysis",
-      "Timing recommendations", 
-      "Competition tracking"
+      "Hyperlocal valuations",
+      "Days on market trends",
+      "Buyer demand signals", 
+      "Timing recommendations"
     ],
     color: "text-accent"
   },
   {
-    title: "Showing Coordinator", 
-    badge: "gpt-4-flash",
-    description: "Schedules showings and coordinates with all parties automatically",
-    icon: Calendar,
+    title: "Owner Connector", 
+    badge: "Social",
+    description: "Connect Past, Present, and Future owners for mentorship and community support",
+    icon: Users,
     capabilities: [
-      "Calendar integration",
-      "Multi-party coordination",
-      "Reminder system",
-      "Route optimization"
+      "Past owner matching",
+      "Seller-buyer direct connection",
+      "Community Q&A forum",
+      "Social sharing integration"
     ],
     color: "text-primary"
   }
@@ -90,15 +90,15 @@ export const AIAgents = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <Badge className="mb-4 bg-accent/10 text-accent border-accent/20">
-            Meet Your AI Team
+            Intelligence Tools Built for Property Owners
           </Badge>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
-            Six Specialized AI Agents{" "}  
-            <span className="text-accent">Working For You</span>
+            Six Tools to Power{" "}  
+            <span className="text-accent">Your Decisions</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-            Each agent is trained for specific real estate tasks and can communicate through voice,
-            text, or Siri integration.
+            Community-verified intelligence, nationwide inventory access, and smart tools 
+            that help you make informed decisions—without the sales pitch.
           </p>
         </div>
 
@@ -141,7 +141,7 @@ export const AIAgents = () => {
                   variant="outline" 
                   className={`w-full border-${agent.color.replace('text-', '')} ${agent.color} hover:bg-${agent.color.replace('text-', '')}/10`}
                 >
-                  Try This Agent →
+                  Use This Tool →
                 </Button>
               </CardContent>
             </Card>
