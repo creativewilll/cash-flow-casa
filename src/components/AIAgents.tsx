@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Search, FileText, Calculator, Users, TrendingUp, Calendar, BarChart3 } from "lucide-react";
+import { Search, Calculator, Users, TrendingUp, BarChart3 } from "lucide-react";
 
 const agents = [
   {
